@@ -1,0 +1,24 @@
+header{
+    width: 7.5rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding:0 0.22rem;
+    background-color: #fbfeff;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    z-index: 999;
+}
+header a{
+    display: inline-block;
+    float: left;
+    color: #36a8fe;
+}
+div{
+    margin-top: 0.88rem;
+    padding: 0 0.24rem;
+}

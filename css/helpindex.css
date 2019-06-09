@@ -1,0 +1,71 @@
+@import "base.css";
+header{
+    width: 7.5rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding:0 0.22rem;
+    background-color: #fbfeff;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    z-index: 999;
+}
+header a{
+    display: inline-block;
+    float: left;
+    color: #36a8fe;
+}
+main{
+    width: 100%;
+    padding-top: 0.4rem;
+    margin-top: 0.88rem;
+}
+/*   702   93*/
+main > .date{
+    padding:  0 0.2rem;
+    height: 0.92rem;
+    color: black;
+    position: relative;
+}
+
+.topBottom{
+    margin: 0 0.2rem;
+    height: 0.03rem;
+    /*width: 6.44rem;*/
+    background: black;
+    opacity: 0.03;
+}
+
+.dateIn{
+    margin: 0.41rem 0.1rem;
+    width: 0.2rem;
+    height: 0.1rem;
+    border-radius: 0.05rem;
+    background: #4ebbfe;
+    float: left;
+
+}
+.date > span{
+    margin: 0.25rem 0;
+    float: left;
+    padding-left:0.1rem ;
+    font-size: 0.28rem;
+}
+.date > span > a{
+    color: black;
+}
+
+.date > i{
+    position: absolute;
+    right: 0.1rem;
+    color: #4ebbfe;
+    font-size: 0.5rem;
+    line-height: 0.92rem;
+    float: right;
+}
+
+

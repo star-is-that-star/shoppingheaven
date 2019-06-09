@@ -1,0 +1,122 @@
+header{
+    width: 7.5rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding:0 0.22rem;
+    background-color: #fbfeff;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    z-index: 999;
+}
+header a{
+    display: inline-block;
+    float: left;
+    color: #36a8fe;
+}
+.list{
+    margin-top: 0.88rem;
+    padding: 0 0.24rem;
+}
+.opeList{
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.opeList li{
+    color: #8a8c8d;
+    opacity: 0.4;
+}
+.top > li{
+    /*height: 3.6rem;*/
+    width: 100%;
+    /*background: #41b2fc;   */
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 2px solid rgba(0,0,0,0.04);
+}
+.top .image{
+    width: 1.74rem;
+    height: 1.74rem;
+}
+.top .text{
+    flex: 1;
+    /*background: #FF947C;*/
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.top .text h1{
+    font-size:0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.05rem;
+}
+
+.top .text ul li{
+    padding: 0.03rem 0.1rem;
+    position: relative;
+}
+.top .text ul li:first-child{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.top .text ul li:nth-child(2){
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.3);
+}
+.top .text ul li:nth-child(3){
+    font-size: 0.26rem;
+    color: #8a8c8d;
+    margin-top: 0.2rem;
+}
+.top .text ul li:nth-child(4){
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.22rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+.top .text ul li:nth-child(5){
+    font-size: 0.24rem;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    float: right;
+    margin-top: 0.4rem;
+    font-weight: bold;
+}
+.top .text ul li .iconfont{
+    font-size: 0.15rem;
+    display: inline-block;
+}
+.top .text ul li::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+.text .btn{
+    height: 0.6rem;
+    width: 100%;
+    float: right;
+    margin: 0.15rem 0;
+}
+.text .btn a{
+    display: block;
+    width: 1.96rem;
+    float: right;
+}

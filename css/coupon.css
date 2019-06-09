@@ -1,0 +1,65 @@
+@import "base.css";
+header{
+    width: 7.5rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding:0 0.22rem;
+    background-color: #fbfeff;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    z-index: 999;
+}
+header a{
+    display: inline-block;
+    float: left;
+    color: #36a8fe;
+}
+
+.tab{
+    width: 100%;
+    padding: 0.44rem 0  0.36rem;
+    margin-top: 0.88rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.tab > .use{
+    margin: 0 0.35rem;
+    width: 1.33rem;
+    height: 0.52rem;
+    border-radius: 0.26rem;
+    background: #3bacfe;
+    position: relative;
+    box-shadow: 0px 5px 12px 0px
+    rgba(59, 172, 254, 0.43);
+}
+.tab > span > a {
+    font-size: 0.2rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tab > .use:nth-child(2){
+    opacity: 0.3;
+}
+
+.tab > .use:nth-child(3){
+    opacity: 0.3;
+}
+.MIFimg{
+    padding: 0.2rem;
+}
+.MIFimg > img{
+    display: flex;
+    justify-content: center;
+    width: 6.86rem;
+    height: 1.83rem;
+    margin: 0.15rem auto;
+}

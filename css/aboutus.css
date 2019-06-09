@@ -1,0 +1,95 @@
+@import "base.css";
+header{
+    width: 7.5rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding:0 0.22rem;
+    background-color: #fbfeff;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    z-index: 999;
+}
+header a{
+    display: inline-block;
+    float: left;
+    color: #36a8fe;
+}
+main{
+    /*width: 100%;*/
+    margin-top: 0.88rem;
+    padding: 0.4rem 0.2rem;
+}
+
+.mainTop{
+    color: #000;
+}
+
+Img{
+    width: 1.1rem;
+    height: 1.45rem;
+    margin: 0.64rem 3rem 0.34rem ;
+}
+.mainTop > Img > img{
+    width:1.10rem;
+    height: 1.45rem;
+}
+.only{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:0.6rem ;
+}
+
+.mainTop >.only > i{
+    color: #4ebbfe;
+    font-size: 0.04rem;
+    margin:0.1rem 0.2rem
+
+}
+.mainTop > .only > span{
+    font-size: 0.26rem;
+}
+.topBottom{
+    margin: 0 0.5rem;
+    height: 0.06rem;
+    width: 6.44rem;
+    background: black;
+    opacity: 0.04;
+}
+
+.word {
+    padding: 0.55rem;
+}
+
+.word > p{
+    margin-top: 0.2rem;
+    color: #000;
+    font-size: 0.26rem;
+}
+
+.weChat{
+    padding:0.5rem 0.2rem ;
+    /*height: 1.06rem;*/
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.chat > i{
+    color: #4ebbfe;
+    font-size: 0.04rem;
+}
+
+.chat > span{
+    font-size: 0.28rem;
+    color: #000;
+}
+
+.qq{
+    color: #36FF97;
+}
