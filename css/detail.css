@@ -17,22 +17,22 @@ article{
     background: #fbfeff;
     min-height: 12rem;
 }
-article>img{
+article > img{
     display: block;
     width: 100%;
     height: 3.66rem;
 }
-article>div{
+article > div{
     padding: 0 0.24rem;
 }
 .first{
     margin-top: -0.6rem;
     margin-bottom: 0.38rem;
 }
-.first>div{
+.first > div{
     display: inline-block;
 }
-.first>div:first-child{
+.first > div:first-child{
     width: 1.64rem;
     height: 1.64rem;
     overflow: hidden;
@@ -40,42 +40,39 @@ article>div{
     border-radius: 0.1rem;
     box-shadow:0 0.1rem 0.2rem 0rem #59c3fe61;
 }
-.first>div>img{
+.first > div > img{
     width: 1.64rem;
     height: 1.64rem;
 }
-.first>div:nth-child(2){
+.first > div:nth-child(2){
     color: #36a8fe;
     font-size: 0.24rem;
 }
-article>div> p{
+article > div > p{
     font-size: 0.2rem;
     color:#36a8fe;
     margin-left: 0.16rem;
     position:relative;
 }
-article>div> p::before{
+article >div > p::before{
     content: "";
-    width: 0.06rem;
-    height: 0.06rem;
     border-radius: 50%;
     position: absolute;
+     width: 0.06rem;
+    height: 0.06rem;
     left: -0.1rem;
     top:0.1rem;
     background: #36a8fe;
 }
-.third> p::before{
-    background: #36d681;
-}
 
-.second>ul{
+.second > ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 0.1rem;
 }
-.second>ul>li{
+.second > ul >li{
     height: 0.22rem;
     font-size: 0.22rem;
     line-height: 0.22rem;
@@ -86,8 +83,11 @@ article>div> p::before{
     letter-spacing: 0.04rem;
     margin: 0.2rem 0.2rem 0.1rem 0;
 }
-.third>div{
+.third  div{
     margin-top: 0.2rem;
+}
+.third > p::before{
+    background: #36d681;
 }
 .third>div> p{
     padding: 0.16rem 0.12rem;
@@ -100,7 +100,7 @@ article>div> p::before{
     font-size: 0.2rem;
     color: #36a8fe;
 }
-.third>div>button{
+.third > div > button{
     padding: 0.16rem 0.12rem;
     font-size: 0.4rem;
     height: 0.4rem;
@@ -111,10 +111,10 @@ article>div> p::before{
     overflow: hidden;
     color: #ffffff;
 }
-.third>div>button:first-child{
+.third > div > button:first-child{
     background: #e7f6ff;
 }
-.third>div>button:last-child{
+.third > div > button:last-child{
     background: #3bacfe;
 }
 .third b{
@@ -142,12 +142,12 @@ footer{
     justify-content:space-between;
     align-items: center;
 }
-.footer-right> a{
+.footer-right > a{
     margin-left: 0.3rem;
     font-size: 0.22rem;
     color: #ffffff;
 }
-.footer-right>a>div{
+.footer-right > a  > div{
     padding: 0.16rem 0.38rem;
     border-radius: 0.31rem;
 }
@@ -166,11 +166,11 @@ footer{
     justify-content:space-between;
     align-items: center;
 }
-.footer-left>a{
-    font-size: 0.2rem;
+.footer-left > a{
+    font-size: 0.18rem;
     text-align: center;
 }
-.footer-left>a>img{
+.footer-left > a > img{
     width: 0.5rem;
     height: 0.5rem;
     display: block;
@@ -179,8 +179,9 @@ footer{
 .footer-left-first{
     color: #3bacfe;
     text-shadow: 0 0 0.06rem #3bacfe;
-}.footer-left-second{
+}
+.footer-left-second{
      color:#37df72;
-     text-shadow: 0 0 0.06rem #37df72;
      margin-left: 0.58rem;
+    text-shadow: 0 0 0.06rem #37df72;
  }
