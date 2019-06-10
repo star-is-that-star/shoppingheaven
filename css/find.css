@@ -1,0 +1,235 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header > a{
+    color: #4ebbfe;
+}
+/*.findplace{*/
+/*    width: 7.12rem;*/
+/*    height: 0.6rem;*/
+/*    !*margin-top: 1.25rem;*!*/
+/*    margin-left: 0.18rem;*/
+/*    background-color: #ebf7ff;*/
+/*    border-radius: 0.3rem;*/
+/*    border: solid 3px rgba(55, 169, 254, 0.17);*/
+/*    overflow: hidden;*/
+/*    !*position: relative;*!*/
+/*}*/
+.research{
+    margin-top: 0.1rem;
+    margin-left: 0.4rem;
+    width: 6.6rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    background-color: #ebf7ff;
+}
+.research .researchlogo{
+    margin: 0.08rem 0.1rem;
+    width: 0.79rem;
+    height: 0.44rem;
+    background: #a4e0bd;
+    border-radius: 0.21rem;
+    float: right;
+    line-height: 0.44rem;
+}
+.research > .researchlogo > .iconfont{
+    text-align: center;
+    color: #36a8fe;
+    margin-left: 0.22rem;
+}
+.watertop{
+    width: 0.73rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    margin-left: -5.5rem;
+    /*letter-spacing: 1px;*/
+    color: #000000;
+    float: left;
+    /*overflow: hidden;*/
+    opacity: 0.3;
+}
+.box{
+    /*background-color: #ebf7ff;*/
+    /*background-opacity: 0.2;*/
+    width: 100%;
+    margin-top: 0.2rem;
+    padding-left: 0.25rem;
+    min-height: 5rem;
+    border-top: solid 1px rgba(55, 169, 254, 0.17)
+}
+.ondoor{
+    margin-top: 0.2rem;
+    width: 6.9rem;
+    /*margin:0 auto;*/
+    /*background: #ff86e2;*/
+}
+.ondoorword{
+    width: 1.33rem;
+    height: 0.32rem;
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #41b2fc;
+    margin-bottom: 0.2rem;
+
+}
+.ondoorword > span{
+    color: #4f5b64;
+}
+.listItem{
+    height: 1.74rem;
+    background: white;
+    margin-left: 0.15rem;
+    margin-bottom: 0.66rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*line-height: 0.88rem;*/
+    /*position: relative;*/
+}
+.listItem > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tukuang{
+    height: 1.74rem;
+    background: #ffffff;
+    width: 1.74rem;
+    /*padding: 0.3rem;*/
+    display: flex;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(233,233,233,0.43);
+    /*justify-content: left;*/
+    /*line-height: 0.88rem;*/
+    /*align-items: center;*/
+}
+
+/*overflow: hidden}*/
+.wenzi{
+    height: 1.74rem;
+    width: 2rem;
+    flex-grow: 1;
+    padding-left: 0.26rem;
+    display: flex;
+    flex-direction: column;
+    /*overflow: hidden;*/
+    /*justify-content: center;*/
+    /*box-sizing: border-box;*/
+    position:relative;
+    justify-content: space-between;
+}
+.wenzi > h1 {
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    font-size: 0.28rem;
+
+
+}
+.wenzi > .score{
+    /*position: relative;*/
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.wenzi .score span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.wenzi .score span::before{
+    content: '';
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+}
+.wenzi > .score strong{
+    font-size: 0.26rem;
+    color: #4ebbfe;
+}
+.wenzi > .tag{
+    font-size: 0.2rem;
+    color: #36a8fe;
+
+}
+.tag > span{
+    padding: 0.08rem 0.2rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}
+.wenzi .total{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.18rem;
+    margin-top: 0.2rem;
+
+}
+.wenzi .total span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.wenzi .total span::before{
+    content: '';
+    position: absolute;
+    top: 0.07rem;
+    left: 0;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #04a812;
+}
+.wenzi .price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+    /*background-color: #3bacfe;*/
+    /*border-radius: 0.22rem;*/
+}
+.wenzi .price1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+    /*background-color: #3bacfe;*/
+    /*border-radius: 0.22rem;*/
+}
+.wenzi .yu{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+    background-color: #3bacfe;
+    border-radius: 0.22rem;
+}
+.sale {
+    margin-top: 0.8rem;
+
+}
+.list{
+    /*width: 100%;*/
+    width: 6.9rem;
+    /*position: absolute;*/
+    /*top: 2rem;*/
+    /*bottom:0;*/
+    /*background: #4ebbfe;*/
+    /*padding: 0 0.22rem;*/
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    margin-top: 0.3rem;
+}

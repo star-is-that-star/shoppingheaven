@@ -1,0 +1,298 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header > a{
+    color: #4ebbfe;
+}
+/* header */
+.goods{
+    padding: 0 0.22rem;
+    height: auto;
+}
+.thumb{
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb > img{
+    width: 3rem;
+    height: 3.6rem;
+}
+.goods >  h1{
+    font-size: 0.28rem;
+    color: #000;
+    opacity: 0.6;
+}
+.goods > p.desc{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.info{
+    font-size: 0.2rem;
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.info > span{
+    margin-right: 0.2rem;
+}
+.info > span:first-child{
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.info > span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+.info > span:nth-child(3){
+    color: #36d681;
+    background: rgba(54,214,129,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+}
+ .info .total{
+     float: right;
+ }
+
+.discount{
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.discount a img{
+    width: 0.8rem;
+    height: 0.6rem;
+    float: left;
+    overflow: hidden;
+}
+.discount a{
+    font-size: 0.24rem;
+    font-weight: normal;
+    /*line-height: 0.4rem;*/
+    color: #ff844e;
+    /*margin-right: 0.3rem;*/
+}
+
+.discount > span{
+    padding: 0.08rem 0.2rem;
+    background-color: #36d681;
+    background-image: linear-gradient(-90deg , #ffca3b ,#ff933b);
+    border-radius: 0.22rem;
+    color: #ffffff!important;
+    overflow: hidden;
+}
+
+h1.title{
+    padding: 0.4rem 0.22rem;
+    font-size: 0.32rem;
+    color: #41b2fc;
+}
+h1.title b{
+    color: #4f5b64;
+}
+h1.title > a{
+    float: right;
+    color: #41b2fc;
+    font-size: 0.22rem  ;
+}
+h1.title > a > i{
+    transform: rotateZ(0deg);
+}
+h1.title  > a > i:last-child{
+    opacity: 0.5;
+}
+
+.comment{
+    height: auto;
+    padding: 0 0.22rem;
+}
+.comment .commentItem{
+    padding: 0.15rem 0;
+    height: auto;
+    border-bottom: 0.01rem solid rgba(216, 223, 227, 0.3);
+    /*opacity: 0.3;*/
+    display: flex;
+}
+
+.comment .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: none;
+}
+.comment .commentInfo{
+    flex-grow: 1;
+    /*background: #046B80;*/
+    padding-top: 0.3rem;
+    padding-left: 0.2rem;
+}
+
+.infoTop{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    overflow: hidden;
+}
+.infoTop > .username{
+    float: left;
+    margin-right: 0.4rem;
+}
+.infoTop .date{
+    float: right;
+}
+.infoTop > .star{
+    float: left;
+    position: relative;
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.infoTop  >  .star > div{
+    width: 1.28rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.infoTop > .star > div > [src]{
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.comment .commentCon{
+    width: 6rem;
+    font-size: 0.22rem;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.comment .position{
+    width: 3.05rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    line-height: 0.32rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.comment .ping img{
+    width:1.7rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+    /*margin-bottom: 0.2rem;*/
+}
+
+h1.title1{
+    padding: 0.4rem 0.22rem;
+    font-size: 0.32rem;
+    color: #35db82;
+    border-bottom: 0.01rem solid rgba(216, 223, 227, 0.3);
+}
+h1.title1 b{
+    color: #4f5b64;
+}
+
+
+.other{
+    padding: 0.22rem;
+    /*height: 6.9rem;*/
+    /*background: #4ebbfe;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /*flex-direction: row;*/
+}
+.other li{
+    margin-top: 0.4rem;
+}
+.other > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    /*font-size: 0.24rem;*/
+}
+.other > li > a > div{
+    width: 1.31rem;
+    height: 1.37rem;
+    padding: 0.28rem;
+    /*margin-bottom: 0.37rem;*/
+}
+.other li p{
+    /*text-align: center;*/
+    /*color: #8e9397;*/
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+}
+.other li b{
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+
+footer .webList {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.22rem;
+    height: 0.98rem;
+    background: #f1f9ff;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.webList li > a {
+    /* width: 0.7rem; */
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+}
+.webList li a .image {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+}
+.webList li > a span {
+    color: #333333;
+}
+.webList li > a.che {
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+}
+.webList li > a.che span {
+    font-size: 0.24rem;
+    color: #FFFFFF;
+}
+
+
+
+

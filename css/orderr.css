@@ -1,0 +1,207 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header > a{
+    color: #4ebbfe;
+}
+/*header*/
+.banner{
+    /*width: 100%;*/
+    height: 4rem;
+    margin: 0 0.22rem;
+    display: flex;
+    flex-direction: column;
+}
+.banner img{
+    width: 1.08rem;
+    height: 0.81rem;
+    margin-left: 3.07rem;
+    margin-top: 0.3rem;
+}
+.banner p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    text-align: center;
+    margin-top: 0.39rem;
+}
+.banner p b{
+    font-size: 0.4rem;
+    color: #32d796;
+    text-align: center;
+}
+.banner span{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+.banner span .b{
+    font-size: 0.34rem;
+    color: #ffd541;
+    text-align: center;
+}
+.banner .button{
+    width: 4.55rem;
+    height: 0.6rem;
+    margin-top: 0.52rem;
+    margin-left: 1.23rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 0.2rem;
+}
+.banner .button .green{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: #37e06f;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.banner .button .blue{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.list{
+    /*实现铺满效果*/
+    width: 7.5rem;
+    padding:0 0.22rem;
+    position: absolute;
+    top: 5.2rem;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.list .float{
+    overflow: hidden;
+    margin-bottom: 0.1rem;
+}
+.list .float h2{
+    display: inline-block;
+    color: #333333;
+    font-size: 0.32rem;
+    float: left;
+}
+.list > .float > a{
+    color: #3bacfe;
+    font-size: 0.22rem;
+    float: right;
+}
+.list > .float > a .iconfont{
+    color: #3bacfe;
+    display: inline-block;
+    font-size: 0.18rem;
+    margin-left: 0.1rem;
+}
+.list .queryList{
+    /*  较长的大框*/
+    /*height: 10rem;*/
+    /*background: #FF947C;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list .queryList li{
+    width: 3.25rem;
+    height: 4.3rem;
+    /*background: #61E37A;*/
+    /*border-bottom: 0.01rem solid rgba(0, 0, 0, 0.04);*/
+}
+.list .queryList li a .image{
+    padding: 0.5rem 0.8rem;
+}
+.list .queryList li a span{
+    font-weight: bold;
+    font-size: 0.3rem;
+    float: left;
+    color: rgba(0, 0, 0, 0.6);
+    height: 0.38rem;
+}
+.list .queryList li a i{
+    float: right;
+    font-size: 0.28rem;
+    color:  #fbb548;;
+}
+.list .queryList li .label{
+    display: block;
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.04);
+}
+.list .queryList li .rate{
+    display: inline-block;
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding:0 0.4rem 0.1rem 0.1rem;
+}
+.list .queryList li .rate::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.list .queryList li .rate strong{
+    display: inline-block;
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.list .queryList li .btn{
+    width: 1.21rem;
+    height: 0.35rem;
+    border-radius: 0.18rem;
+    background: rgba(59, 171, 255,0.1);
+    float: left;
+    text-align: center;
+    line-height: 0.35rem;
+    font-size: 0.2rem;
+    margin-right: 0.2rem;
+    color: #36a8fe;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box ;
+    display: flex;
+    justify-content: space-between;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #046b80;*/
+    font-size: 0.24rem;
+    color: #4ebbfe;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer > a.hot{
+    opacity: 1;
+}
+footer > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}

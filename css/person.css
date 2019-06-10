@@ -124,38 +124,71 @@ header a{
     color: #fe624e;
     font-size: 0.36rem;
 }
-.webList{
+/*.webList{*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    padding: 0 0.22rem;*/
+/*    height: 0.98rem;*/
+/*    width: 100%;*/
+/*    !*加上定位之后，宽失效，得写出来*!*/
+/*    -webkit-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.webList li{*/
+/*    opacity: 0.5;*/
+/*}*/
+/*.webList > li.hot{*/
+/*    opacity: 1;*/
+/*}*/
+/*.webList li > a{*/
+/*    width: 0.7rem;*/
+/*    height: 100%;*/
+/*    text-align: center ;*/
+/*    background-color: #fbfeff;*/
+/*    padding-top: 0.1rem;*/
+/*    box-sizing: border-box;*/
+/*    font-size: 0.24rem;*/
+/*}*/
+/*.webList li:hover {*/
+/*    opacity: 1;*/
+/*}*/
+/*.webList li a .image{*/
+/*    width: 0.5rem;*/
+/*    height: 0.5rem;*/
+/*}*/
+
+footer{
     position: fixed;
-    bottom: 0;
     left: 0;
-    padding: 0 0.22rem;
-    height: 0.98rem;
+    bottom: 0;
     width: 100%;
-    /*加上定位之后，宽失效，得写出来*/
-    -webkit-box-sizing: border-box;
+    height: 0.98rem;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
     box-sizing: border-box;
+    -webkit-box-sizing:border-box ;
     display: flex;
     justify-content: space-between;
 }
-.webList li{
-    opacity: 0.5;
-}
-.webList > li.hot{
-    opacity: 1;
-}
-.webList li > a{
+footer > a{
     width: 0.7rem;
     height: 100%;
-    text-align: center ;
-    background-color: #fbfeff;
+    /*background: #046b80;*/
+    font-size: 0.24rem;
+    color: #4ebbfe;
+    text-align: center;
     padding-top: 0.1rem;
     box-sizing: border-box;
-    font-size: 0.24rem;
+    opacity: 0.5;
 }
-.webList li:hover {
+footer > a.hot{
     opacity: 1;
 }
-.webList li a .image{
+footer > a >img{
     width: 0.5rem;
     height: 0.5rem;
+    display: inline-block;
 }
