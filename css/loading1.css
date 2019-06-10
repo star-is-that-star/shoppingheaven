@@ -49,10 +49,11 @@ a.hot{
     height: 3.36rem;
 }
 .title{
-    text-align: center;
+   
      border-bottom: 0.02rem rgba(0,0,0,0.05) solid;
  }
 .box > .title > p{
+    text-align: center;
     margin: 0 auto;
     color: #000000;
     opacity: 0.6;
