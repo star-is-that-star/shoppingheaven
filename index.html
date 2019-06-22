@@ -6,6 +6,8 @@
           content="width=device-width , user-scalable=no,initial-scale=1.0 ,maximum-scale =1.0 ,minimum-scale =1.0 ">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="./swiper-4.5.0/swiper-4.5.0/dist/css/swiper.min.css">
+    <script src="swiper-4.5.0/swiper-4.5.0/dist/js/swiper.min.js"></script>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1194446_n7piygx3s.css">
@@ -22,10 +24,24 @@
     <span>太原 <i class="iconfont icon-xiangxia"></i></span>
     <a href=""></a>
 </div>
-<div class="banner">
-    <a href="">
-        <img src="./image/img/banner.png" alt="">
-    </a>
+<div class="banner swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="">
+            <img src="./image/img/banner.png" alt="">
+        </a></div>
+        <div class="swiper-slide"><a href="">
+            <img src="./image/img/banner.png" alt="">
+        </a></div>
+        <div class="swiper-slide"><a href="">
+            <img src="./image/img/banner.png" alt="">
+        </a></div>
+
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
 </div>
 <ul class="category">
     <li>
@@ -133,5 +149,25 @@
     </a>
 
 </footer>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },  pagination: {
+            el: '.swiper-pagination',
+        }
+    });
+</script>
 </body>
 </html>
